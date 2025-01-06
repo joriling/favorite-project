@@ -1,5 +1,5 @@
 import { Project } from "@/model/api";
-import { AppDispatch, RootState } from "@/store";
+import { AppDispatch } from "@/store";
 import { updateProject } from "@/store/slices/projectSlice";
 import {
   theme,
@@ -13,7 +13,6 @@ import {
 import TextArea from "antd/es/input/TextArea";
 import dayjs from "dayjs";
 import React, { useEffect } from "react";
-import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 

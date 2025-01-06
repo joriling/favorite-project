@@ -1,6 +1,6 @@
 import { Layout } from "antd";
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Footer } = Layout;
 
 const LayoutFooter = () => (
   <Footer style={{ textAlign: "center" }}>
